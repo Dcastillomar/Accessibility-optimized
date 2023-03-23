@@ -8,6 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Creates a the header with the blue background, 
+ specifies the fonts to use on the heading and sizes the padding around the header*/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +23,14 @@ body {
     font-size: 48px;
 }
 
+/*Decides the color of the letter seo in the name in the header*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*In the heading, adds top padding, moves the text to the right 20px for margin, 
+float right moves clickables to the right inside the blue header, 
+font family establishes the font of the letters and font size changes the size of the font to 20px*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -36,6 +43,7 @@ body {
     list-style-type: none;
 }
 
+/*Is specifing the unordered list to be display from the left marigin 25px and inline as a row*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,6 +58,7 @@ p {
     font-size: 16px;
 }
 
+/*Specifies the height and width of the background image and positioning on the page*/
 .hero {
     height: 800px;
     width: 100%;
@@ -69,12 +78,18 @@ p {
     margin-left: 25px;
 }
 
+/*makes the content take up 75% of the screen with 20px of distance between the left margin,
+displays the content inline or next to the benefits section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*shows the benefits section 20px of the marigin right, creates a padding of 20px, floats the section to 
+the right of the content section, makes the width of the element 20% and the height 100%,
+establishes font lettering and the background color of the element to a lighter blue then the content 
+section*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,21 +101,27 @@ p {
     background-color: #2589bd;
 }
 
+/*establishes the color of the font as weight and aligns the bottom of the element to 32px from the bottom 
+margin*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*establishes the color of the font as weight and aligns the bottom of the element to 32px from the bottom 
+margin*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*establishes the color of the font as weight and aligns the bottom of the element to 32px from the bottom 
+margin*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*the text titles in these elements are aligned to the center away from the bottom margin 10px*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -115,7 +136,8 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*in these elements, the images are displaying block, the margins on either side are set 10px,
+and the width has been changed to 150px to fit in the element*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,6 +155,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*margin is setting the elements a bottom margin of 20px from each other on the main page content
+padding around the element is set at 50px, the height of the element is 300px, font family has been 
+designated, the background color is a blue and the color of the letters white*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -160,7 +185,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*the image is set to 200px maximum for all three images*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +198,7 @@ p {
     max-height: 200px;
 }
 
+/*is setting the font size for the headings and how far away the text is from the heading*/ 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,13 +214,15 @@ p {
     font-size: 36px;
 }
 
+/*it is setting the padding around footer as 30px, font family is set and the text is aligned 
+to the center of the page*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*establishes the made wit heart by horiseon as size 20px*/
 .footer h2 {
     font-size: 20px;
 }
